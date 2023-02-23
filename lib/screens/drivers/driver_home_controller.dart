@@ -1,9 +1,6 @@
 // @dart=2.9
-import 'package:crown_city_car_hire/constants/controllers.dart';
 import 'package:crown_city_car_hire/controllers/customerController.dart';
-import 'package:crown_city_car_hire/models/booking.dart';
 import 'package:crown_city_car_hire/models/customer.dart';
-import 'package:crown_city_car_hire/screens/customer/core.dart';
 import 'package:get/get.dart';
 
 class DriverHomeController extends GetxController {

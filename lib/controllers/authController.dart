@@ -1,7 +1,5 @@
 import 'package:crown_city_car_hire/constants/controllers.dart';
-import 'package:crown_city_car_hire/controllers/customerController.dart';
 import 'package:crown_city_car_hire/models/customer.dart';
-import 'package:crown_city_car_hire/screens/authentication/login/login.dart';
 import 'package:crown_city_car_hire/screens/customer/core.dart';
 import 'package:crown_city_car_hire/screens/wrapper.dart';
 import 'package:crown_city_car_hire/services/database.dart';

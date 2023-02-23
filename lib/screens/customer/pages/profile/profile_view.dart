@@ -3,7 +3,6 @@ import 'package:badges/badges.dart';
 import 'package:crown_city_car_hire/constants/constants.dart';
 import 'package:crown_city_car_hire/constants/controllers.dart';
 import 'package:crown_city_car_hire/controllers/authController.dart';
-import 'package:crown_city_car_hire/controllers/customerController.dart';
 import 'package:crown_city_car_hire/screens/map/map_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

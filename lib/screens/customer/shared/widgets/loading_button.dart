@@ -1,7 +1,5 @@
 // @dart=2.9
 import 'dart:developer';
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class LoadingButton extends StatefulWidget {

@@ -2,7 +2,6 @@ import 'package:crown_city_car_hire/constants/controllers.dart';
 import 'package:crown_city_car_hire/models/message.dart';
 import 'package:crown_city_car_hire/screens/chat/widgets/message_widget.dart';
 import 'package:crown_city_car_hire/services/database.dart';
-import 'package:crown_city_car_hire/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 
 class MessagesWidget extends StatelessWidget {

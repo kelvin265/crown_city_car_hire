@@ -1,9 +1,7 @@
 // @dart=2.9
 import 'package:crown_city_car_hire/constants/constants.dart';
-import 'package:crown_city_car_hire/constants/controllers.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:line_icons/line_icons.dart';
 
 import '../../core.dart';

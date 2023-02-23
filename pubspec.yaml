@@ -42,7 +42,7 @@ dependencies:
   badges: ^2.0.1
   flutter_rating_bar:
 
-  # firebase
+  # firebase 
   firebase_auth: 
   cloud_firestore: 
   firebase_core:  

@@ -3,7 +3,6 @@ import 'dart:async';
 
 import 'package:crown_city_car_hire/constants/constants.dart';
 import 'package:crown_city_car_hire/constants/loading.dart';
-import 'package:crown_city_car_hire/screens/customer/pages/payments/payments_view1.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

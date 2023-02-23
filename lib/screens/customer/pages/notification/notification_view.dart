@@ -1,9 +1,6 @@
 import 'package:crown_city_car_hire/constants/controllers.dart';
-import 'package:crown_city_car_hire/screens/customer/pages/booking/widgets/bookingList.dart';
 import 'package:crown_city_car_hire/screens/customer/pages/notification/widgets/notificationList.dart';
-import 'package:crown_city_car_hire/screens/customer/shared/widgets/app_bar_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 class NotificationView extends StatelessWidget {
   const NotificationView({Key key}) : super(key: key);

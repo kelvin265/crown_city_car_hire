@@ -2,7 +2,6 @@
 import 'dart:io';
 import 'package:crown_city_car_hire/constants/loading.dart';
 import 'package:crown_city_car_hire/screens/customer/core.dart';
-import 'package:crown_city_car_hire/screens/customer/shared/widgets/app_bar_widget.dart';
 import 'package:crown_city_car_hire/services/database.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -470,10 +469,16 @@ class EditprofileView extends GetView<EditProfileController> {
                                             padding:
                                                 EdgeInsets.only(right: 10.0),
                                             child: Container(
-                                              child: RaisedButton(
+                                              child: ElevatedButton(
                                                 child: Text('Save'),
-                                                textColor: Colors.white,
-                                                color: Colors.green,
+                                                style: ElevatedButton.styleFrom(
+                                                  foregroundColor: Colors.white,
+                                                  backgroundColor: Colors.green,
+                                                  shape: RoundedRectangleBorder(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              20)),
+                                                ),
                                                 onPressed: () async {
                                                   _formKey.currentState.save();
                                                   if (_formKey.currentState
@@ -542,10 +547,6 @@ class EditprofileView extends GetView<EditProfileController> {
                                                         false;
                                                   }
                                                 },
-                                                shape: RoundedRectangleBorder(
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            20)),
                                               ),
                                             ),
                                           ),
@@ -555,15 +556,17 @@ class EditprofileView extends GetView<EditProfileController> {
                                           child: Padding(
                                             padding:
                                                 EdgeInsets.only(left: 10.0),
-                                            child: RaisedButton(
+                                            child: ElevatedButton(
                                               child: Text('Cancel'),
-                                              textColor: Colors.white,
-                                              color: Colors.red,
+                                              style: ElevatedButton.styleFrom(
+                                                foregroundColor: Colors.white,
+                                                backgroundColor: Colors.red,
+                                                shape: RoundedRectangleBorder(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            20)),
+                                              ),
                                               onPressed: () => Get.back(),
-                                              shape: RoundedRectangleBorder(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          20)),
                                             ),
                                           ),
                                           flex: 2,

@@ -51,7 +51,7 @@ class _MapScreenState extends State<MapScreen> {
                   ),
                 ),
                 style: TextButton.styleFrom(
-                  primary: Colors.green,
+                  foregroundColor: Colors.green,
                   textStyle: const TextStyle(fontWeight: FontWeight.w600),
                 ),
                 child: const Text('ORIGIN'),
@@ -68,7 +68,7 @@ class _MapScreenState extends State<MapScreen> {
                   ),
                 ),
                 style: TextButton.styleFrom(
-                  primary: Colors.orange,
+                  foregroundColor: Colors.orange,
                   textStyle: const TextStyle(fontWeight: FontWeight.w600),
                 ),
                 child: const Text('DEST'),

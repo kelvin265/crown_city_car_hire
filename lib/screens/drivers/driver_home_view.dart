@@ -13,8 +13,6 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
-import 'widgets/menu_item.dart';
-
 class DriverHomeView extends GetView<DriverHomeController> {
   DriverHomeView({Key key}) : super(key: key);
   final AuthController authController = Get.find();
